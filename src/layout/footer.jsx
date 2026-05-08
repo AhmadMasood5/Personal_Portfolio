@@ -3,9 +3,8 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 import { BsTwitter } from "react-icons/bs";
 
 const socialLinks = [
-  { icon: FaGithub, href: "#", label: "GitHub" },
-  { icon: FaLinkedin, href: "#", label: "LinkedIn" },
-  { icon: BsTwitter, href: "#", label: "Twitter" },
+  { icon: FaGithub, href: "https://github.com/AhmadMasood5", label: "GitHub" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BzQtfazsTQhqpx%2F1UHgh9xQ%3D%3D", label: "LinkedIn" },
 ];
 
 const footerLinks = [
