@@ -59,7 +59,7 @@ const Navbar = () => {
         {/*CTA Button*/}
         <div className='hidden md:block'>
           {" "}
-          <Button size="sm">Contact Me</Button>
+          <Button size="sm"><a href="#Contact">Contact Me</a></Button>
         </div>
 
         {/*Mobile Menu*/}
@@ -77,7 +77,7 @@ const Navbar = () => {
               <a key={index} onClick={()=> setIsMobileMenuOpen(false)} href={link.href}  className="text-lg text-muted-foreground hover:text-foreground py-2"
             >{link.label}</a>
             ))}
-            <Button >Contact Me</Button>
+            <Button ><a href="#Contact">Contact Me</a></Button>
            </div>
       </div>)}
     </header>

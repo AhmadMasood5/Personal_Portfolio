@@ -4,7 +4,7 @@ import { BsTwitter } from "react-icons/bs";
 
 const socialLinks = [
   { icon: FaGithub, href: "https://github.com/AhmadMasood5", label: "GitHub" },
-  { icon: FaLinkedin, href: "https://www.linkedin.com/public-profile/settings/?trk=d_flagship3_profile_self_view_public_profile&lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BzQtfazsTQhqpx%2F1UHgh9xQ%3D%3D", label: "LinkedIn" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/ahmad-masood-991173247/", label: "LinkedIn" },
 ];
 
 const footerLinks = [
