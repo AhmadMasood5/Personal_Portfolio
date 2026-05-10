@@ -93,13 +93,13 @@ const HeroSection = () => {
             </div>
 
             {/*CTA*/}
-            <div className="animate-fade-in animation-delay-100">
+            <div className="flex flex-wrap gap-6 animate-fade-in animation-delay-300">
               <Button size="lg">
-                <a href="#Contact" className="flex flex-wrap gap-4 ">Contact Me <ArrowRight className="w-5 h-5" /></a>
+                <a href="#Contact" className="flex items-center gap-2">Contact Me <ArrowRight className="w-5 h-5" /></a>
               </Button>
               <AnimatedBorderButton>
                 <Download className="w-5 h-5" />
-               <a href="/Ahmad_Masood_CV.pdf" download='/Ahmad_Masood_CV.pdf'> Download CV</a>
+                <a href="/Ahmad_Masood_CV.pdf" download='/Ahmad_Masood_CV.pdf'>Download CV</a>
               </AnimatedBorderButton>
             </div>
 
